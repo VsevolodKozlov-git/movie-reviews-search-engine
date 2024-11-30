@@ -1,0 +1,353 @@
+[
+{
+    "query": "amazing movie with great acting",
+    "ids": {
+        "166": 1, // Relevant: highlights enjoyment and engagement with the movie.
+        "27909": 1, // Relevant: describes great acting and compelling storytelling.
+        "35746": 1, // Relevant: praises acting and the depth of the story.
+        "1872": 0, // Not relevant: focuses on clichés and disappointment rather than acting.
+        "12703": 0, // Not relevant: dismisses the movie as boring and poorly made.
+        "16108": 0, // Not relevant: criticizes inaccuracies and writing quality.
+        "26783": 0, // Not relevant: reminisces about an old PBS film, unrelated to the query.
+        "25131": 0 // Not relevant: discusses a B-movie with mixed reviews but no mention of amazing acting.
+    }
+},
+{
+"query": "terrible plot and bad acting",
+"ids": {
+    "26702": 0, // Not relevant: primarily a positive review focusing on humor and characters.
+    "26472": 0, // Not relevant: praises the film's production, acting, and adaptation.
+    "40356": 0, // Not relevant: discusses a documentary with an inspiring story and no mention of bad plot or acting.
+    "2929": 0, // Not relevant: highly praises the film's plot, direction, and acting.
+    "12983": 0, // Not relevant: focuses on adventure and themes, no critique of plot or acting.
+    "14689": 1, // Relevant: explicitly criticizes the confusing plot and acting.
+    "11892": 0, // Not relevant: highly praises acting and character dynamics.
+    "32230": 0 // Not relevant: praises performances, direction, and story.
+}
+},
+{
+    "query": "a masterpiece with stunning visuals",
+    "ids": {
+        "37908": 0, // Not relevant: harshly criticizes plot and acting, no mention of visuals.
+        "24481": 0, // Not relevant: criticizes acting and plot, nothing about stunning visuals.
+        "9695": 0, // Not relevant: focuses on disappointment with plot and direction, minimal mention of visuals.
+        "19798": 0, // Not relevant: praises the film's insights and storytelling but does not emphasize visuals.
+        "24290": 0, // Not relevant: focuses on humor and character dynamics, no mention of visuals.
+        "381": 0, // Not relevant: praises the plot and acting, but no mention of visuals.
+        "10211": 0, // Not relevant: critiques the film's grim tone and direction, no emphasis on visuals.
+        "24243": 1 // Relevant: highlights the mystique of the plot and a performance filled with dramatic, visual storytelling.
+    }
+},
+{
+    "query": "boring and too slow-paced",
+    "ids": {
+        "34430": 0, // Not relevant: praises the film as brilliant and insightful, no mention of pacing issues.
+        "16092": 1, // Relevant: directly mentions that the film is slow-paced and lacks excitement.
+        "36022": 0, // Not relevant: describes a love for the film's unique story and visuals, no critique of pacing.
+        "28966": 1, // Relevant: calls the film one of the worst ever made, which implies poor pacing and engagement.
+        "27193": 0, // Not relevant: calls the film fun and uplifting with good character development.
+        "30477": 0, // Not relevant: shares personal nostalgia about the film, with no mention of pacing issues.
+        "36283": 1, // Relevant: criticizes the film's flaws, lack of discipline, and cloddish nature, indicating slow and uninspired pacing.
+        "26096": 0 // Not relevant: critiques societal issues and setting, but not pacing.
+    }
+},
+{
+    "query": "funniest comedy of the year",
+    "ids": {
+        "34204": 1, // Relevant: Praises humor and moments of frustration that many can relate to.
+        "3541": 0, // Not relevant: Focuses on fantasy elements and animation, not a comedy.
+        "43418": 0, // Not relevant: A critique of a horror film, not comedic in nature.
+        "2060": 0, // Not relevant: A touching drama about family and life, no mention of comedy.
+        "40023": 0, // Not relevant: Praises cinematography and performances, but not comedic.
+        "3777": 0, // Not relevant: A thriller about crime, not a comedy.
+        "10517": 0, // Not relevant: Criticizes a low-quality horror movie, not comedic.
+        "31650": 0 // Not relevant: A critique of a book adaptation, no mention of humor or comedy.
+    }
+},
+{
+    "query": "a touching story of friendship",
+    "ids": {
+        "49255": 0, // Not relevant: A critique of a TV show, focusing on animation and storytelling.
+        "25359": 0, // Not relevant: Criticizes the quality of a film without any focus on friendship.
+        "10997": 1, // Relevant: Chronicles the friendship and rivalry between two bands, showcasing their shared history.
+        "11667": 0, // Not relevant: Focuses on cinematography and aesthetics, not friendship.
+        "41846": 0, // Not relevant: Criticizes a Harold Lloyd film, no focus on friendship.
+        "43844": 0, // Not relevant: Discusses a fun movie about spending money, no mention of friendship.
+        "4998": 1, // Relevant: Praises a low-budget gem with varied characters and charm, likely depicting meaningful relationships.
+        "27596": 0 // Not relevant: A gothic melodrama about betrayal and revenge, no friendship elements.
+    }
+},
+{
+    "query": "overrated and not worth the hype",
+    "ids": {
+        "20200": 1, // Relevant: Critiques the sequel as disappointing, lacking charm and quality.
+        "19780": 1, // Relevant: Harshly criticizes the film for being boring, poorly written, and lacking substance.
+        "6951": 1, // Relevant: Strongly criticizes the movie as overhyped and undeserving of praise.
+        "30817": 0, // Not relevant: Praises the film as funny, unique, and enjoyable.
+        "39951": 1, // Relevant: Criticizes the film as amateurish and unworthy of any acclaim.
+        "11069": 0, // Not relevant: Praises the film as heartwarming and well-made.
+        "25373": 1, // Relevant: Criticizes the film as tasteless, with a poor storyline and bad jokes.
+        "24520": 0 // Not relevant: Praises the film as a brilliant comedy by Charlie Chaplin.
+    }
+},
+{
+    "query": "underrated gem with brilliant writing",
+    "ids": {
+        "20832": 1, // Relevant: Praises the film for its atmosphere, direction, and effective storytelling.
+        "28705": 0, // Not relevant: Criticizes the adaptation for butchering a brilliant play.
+        "6411": 0, // Not relevant: Criticizes the film as poorly written and predictable.
+        "668": 0, // Not relevant: Critiques the film's effects and lack of coherent story.
+        "44720": 0, // Not relevant: Praises performances but notes pacing issues, no emphasis on writing.
+        "1655": 0, // Not relevant: Focuses on themes and issues addressed in the film, not its writing quality.
+        "34399": 1, // Relevant: Highlights the witty script and strong comedic performances as key strengths.
+        "45184": 0 // Not relevant: Criticizes the film as self-indulgent and poorly executed.
+    }
+},
+{
+    "query": "romantic movie with a happy ending",
+    "ids": {
+        "39892": 0, // Not relevant: Criticizes a movie with a confusing tone and no mention of romance.
+        "29912": 0, // Not relevant: While humorous and entertaining, it doesn't focus on romance with a happy ending.
+        "178": 1, // Relevant: Describes a touching story with romantic and uplifting elements, ending on a positive note.
+        "19743": 1, // Relevant: A light-hearted comedy-romance about a dictator, with a charming and happy resolution.
+        "22209": 0, // Not relevant: A poorly reviewed comedy, not romantic or happy.
+        "10771": 0, // Not relevant: A critique of an action movie, no romance involved.
+        "38126": 0, // Not relevant: A zombie movie, no romance or happy ending.
+        "997": 0 // Not relevant: A poorly received horror-action movie, no romance or happy ending.
+    }
+},
+{
+    "query": "horrifying and thrilling experience",
+    "ids": {
+        "31517": 0, // Not relevant: More of a cerebral drama with social themes than a horror or thriller.
+        "46687": 0, // Not relevant: Describes poorly made softcore movies, not horrifying or thrilling.
+        "44439": 1, // Relevant: A thriller with suspenseful elements, exploring a plague outbreak and its investigation.
+        "35711": 0, // Not relevant: A critique of a British comedy, no horror or thrills involved.
+        "30785": 0, // Not relevant: A musical with poor execution, not fitting the "horrifying and thrilling" theme.
+        "22014": 0, // Not relevant: An animated film with artistic moments but not described as thrilling or horrifying.
+        "25535": 0, // Not relevant: A critique of a cliché coming-of-age movie, not horrifying or thrilling.
+        "20255": 0 // Not relevant: A critique of a movie's poor quality, no mention of thrills or horror.
+    }
+},
+{
+    "query": "predictable plot but good performances",
+    "ids": {
+        "41766": 0, // Not relevant: A critique of a poor movie with no mention of good performances.
+        "33351": 0, // Not relevant: Criticism of direction and plot, no redeeming mention of performances.
+        "32858": 1, // Relevant: Describes predictable elements but acknowledges good performances and notable acting.
+        "4637": 1, // Relevant: Predictable plot but good acting, with mention of well-drawn characters.
+        "3973": 0, // Not relevant: Completely negative review with no positive mention of performances.
+        "34861": 0, // Not relevant: Critiques weak plot and acting, no positive remarks on performances.
+        "23967": 0, // Not relevant: Review about comedy, not relevant to plot predictability or acting.
+        "38121": 0 // Not relevant: Critiques lack of talent and poor performances, unrelated to the query.
+    }
+},
+{
+    "query": "great soundtrack and memorable dialogues",
+    "ids": {
+        "46276": 0, // Not relevant: The review focuses on surreal visuals and themes, not soundtrack or dialogue.
+        "1231": 0, // Not relevant: Mentions the plot and performances, with no reference to music or dialogue.
+        "41554": 0, // Not relevant: Criticizes plot and character development without mention of music or dialogue.
+        "39192": 0, // Not relevant: Focuses on confusion about the plot and doesn't mention music or dialogue.
+        "32735": 0, // Not relevant: Discusses performances and plot but lacks mention of soundtrack or memorable dialogues.
+        "24186": 0, // Not relevant: A critique of film style and narrative with no emphasis on music or dialogue.
+        "13978": 1, // Relevant: Praises unique qualities of the film, particularly mentioning fun and engaging moments which could involve dialogue.
+        "46895": 1 // Relevant: Highlights humorous dialogue as a core strength of the film.
+    }
+},
+{
+    "query": "beautiful cinematography and compelling characters",
+    "ids": {
+        "8491": 0, // Not relevant: Focuses on cheesy dialogue and budget constraints, not cinematography or characters.
+        "4529": 0, // Not relevant: Criticizes dialogue, special effects, and plot but does not mention cinematography or characters.
+        "11837": 0, // Not relevant: Discusses poor plot and acting without reference to cinematography or character depth.
+        "36547": 0, // Not relevant: Focuses on toy marketing and prequel storyline, with no mention of cinematography or compelling characters.
+        "46773": 0, // Not relevant: Centers on tunes and TV biography inaccuracies, not cinematography or characters.
+        "44303": 1, // Relevant: Describes compelling characters and the nuanced portrayal of aging Geisha, supported by strong performances.
+        "24264": 0, // Not relevant: Discusses "old dark house" tropes and plot but lacks focus on cinematography or deep characters.
+        "15206": 0 // Not relevant: Talks about script and cult status but does not highlight cinematography or character development.
+    }
+},
+{
+    "query": "the worst movie I have ever seen",
+    "ids": {
+        "9073": 1, // Relevant: Detailed description of how the film fails, highlighting it as a terrible experience.
+        "41618": 1, // Relevant: Harsh critique labeling the film as nonsensical and unbearable.
+        "39224": 0, // Not relevant: Though it hints at some unease, it ultimately portrays the film as suspenseful and worth watching.
+        "20283": 1, // Relevant: Describes the movie as superficial, implausible, and one of the worst Madonna films.
+        "6066": 1, // Relevant: Detailed critique of poor humor, tasteless jokes, and bad performances, labeling it awful.
+        "32522": 1, // Relevant: Criticizes the film for being misleading, nonsensical, and dull, fitting the query.
+        "35139": 0, // Not relevant: While the film is described as forgettable, it is also deemed decent for light action fans.
+        "13912": 1 // Relevant: Highlights the absurdity, offensive nature, and poor production, aligning with the "worst movie" sentiment.
+    }
+},
+{
+    "query": "mediocre film with poor direction",
+    "ids": {
+        "14137": 0, // Not relevant: Discusses a documentary's unique appeal, not related to poor direction.
+        "5552": 1, // Relevant: Describes the film as poorly directed with bad acting and effects.
+        "32359": 0, // Not relevant: Praises the film's depth and character performances, not addressing direction as poor.
+        "18223": 1, // Relevant: Critiques the film's lack of emotional depth and coherence, implying poor direction.
+        "35052": 0, // Not relevant: A positive review, praising direction and emotional impact.
+        "45533": 1, // Relevant: Explicitly states the film is poorly made and disappointing, indicating poor direction.
+        "46138": 0, // Not relevant: Praises the film's direction, acting, and emotional depth.
+        "14864": 1 // Relevant: Describes the movie as boring, dull, and uninteresting, implying weak direction.
+    }
+},
+
+{
+    "query": "amazing performance by the lead actor",
+    "ids": {
+        "10422": 0, // Not relevant: The review praises the ensemble cast but does not single out the lead actor's performance.
+        "5893": 0, // Not relevant: Criticizes the film for its plot and characters; does not praise the lead actor.
+        "44413": 1, // Relevant: Praises Jake Weber's understated and refreshing performance.
+        "21581": 0, // Not relevant: Discusses themes and societal implications rather than lead performances.
+        "25502": 0, // Not relevant: Criticizes the film's poor CGI and plot without focusing on the lead actor's performance.
+        "20371": 0, // Not relevant: Mentions issues with the film's script and direction, not the lead actor.
+        "5831": 0, // Not relevant: Critiques Herzog's visual style and lacks any specific mention of a lead actor's performance.
+        "43455": 1 // Relevant: Highlights Nana Patekar's standout performance as being at his best.
+    }
+},
+{
+    "query": "a thought-provoking and emotional drama",
+    "ids": {
+        "22650": 1, // Relevant: Praises the film's emotional depth and exploration of mortality.
+        "11044": 0, // Not relevant: Criticizes the film for being boring and disengaging rather than thought-provoking or emotional.
+        "31222": 0, // Not relevant: Describes a music-centric film without emotional or thought-provoking depth.
+        "13262": 0, // Not relevant: Criticizes the film's violence and story without highlighting emotional or intellectual depth.
+        "39405": 0, // Not relevant: Critiques the film for being overly romanticized and lacking authenticity.
+        "13817": 0, // Not relevant: Focuses on a specific visual scene, not the emotional or thought-provoking aspects of the film.
+        "38304": 0, // Not relevant: Criticizes the film for its lack of suspense and predictability.
+        "47125": 1 // Relevant: Highlights the film's exploration of moral conflict and human emotions within the backdrop of a political struggle.
+    }
+},
+{
+    "query": "visually stunning but lacks depth",
+    "ids": {
+        "15852": 0, // Not relevant: Focuses on a cartoon’s humor and pacing, not its visual or thematic qualities.
+        "35165": 0, // Not relevant: Criticizes a TV show for poor writing and lack of humor, not its visual elements.
+        "16250": 0, // Not relevant: Discusses political comedy and stand-up rather than visuals or thematic depth.
+        "13893": 1, // Relevant: Highlights the effort and visual appeal but criticizes the film for leaving too much to the audience and lacking clear storytelling.
+        "8028": 0, // Not relevant: Praises understated humor and acting, with no focus on visual style or depth.
+        "25257": 0, // Not relevant: Critiques a low-budget film for lack of action or quality, not visuals or depth.
+        "18554": 0, // Not relevant: Praises a film for being entertaining and educational but doesn't discuss its visuals or depth.
+        "24640": 1 // Relevant: Praises the film for its nostalgic and complex depiction of childhood but notes the heavier themes might overshadow the visuals.
+    }
+},
+{
+    "query": "exciting and action-packed adventure",
+    "ids": {
+        "47594": 0, // Not relevant: Critiques a poorly made sequel, emphasizing its lack of quality, not action or adventure.
+        "44690": 1, // Relevant: Praises "A Bug's Life" for its exciting and adventurous storyline with plenty of action and character growth.
+        "18732": 0, // Not relevant: Describes an emotional, well-made drama, not an action-packed adventure.
+        "36955": 0, // Not relevant: Critiques a romantic drama with no focus on action or adventure.
+        "6622": 0, // Not relevant: Reviews an Italian horror/suspense film with perverse elements, unrelated to adventure or action.
+        "10462": 0, // Not relevant: Discusses social themes and racism, not an action-packed adventure.
+        "45062": 0, // Not relevant: Focuses on humor and character interactions in a mockumentary, not action or adventure.
+        "4111": 0 // Not relevant: Describes a philosophical and slow-paced experimental film, opposite of action-packed or adventurous.
+    }
+},
+{
+    "query": "terribly written with cringe-worthy dialogue",
+    "ids": {
+        "40018": 1, // Relevant: Criticizes poor writing, ludicrous plot twists, and wasted potential, fitting the query.
+        "39146": 0, // Not relevant: Praises a WWII film for its emotional depth and narrative, not for poor dialogue.
+        "3994": 1, // Relevant: Highlights absurd plot elements and ridiculous dialogue, clearly addressing the query.
+        "38700": 1, // Relevant: Mentions tedious storytelling and poorly executed plot points, fitting the query's description.
+        "46616": 0, // Not relevant: Praises the film for visual and atmospheric qualities; no mention of bad dialogue.
+        "18611": 0, // Not relevant: Discusses a well-received comedy with strong character dynamics; not applicable to poor writing.
+        "38776": 0, // Not relevant: Reviews a prison drama with positive mentions of performance and realism.
+        "38070": 1 // Relevant: Criticizes the film for inconsistent characters, implausible events, and poor scripting.
+    }
+},
+{
+    "query": "a unique and original story",
+    "ids": {
+        "16540": 0, // Not relevant: A negative review of a poorly executed movie; no mention of originality.
+        "41111": 0, // Not relevant: Critiques a comedy film for lack of humor and originality.
+        "20542": 1, // Relevant: Praises the movie for its creativity, uniqueness, and storytelling approach.
+        "46838": 0, // Not relevant: Mixed review, calling the story unoriginal and poorly executed.
+        "21796": 0, // Not relevant: Critiques the film for being shallow and disappointing despite unique marketing.
+        "10547": 0, // Not relevant: Negative critique of a TV show; no relation to unique storytelling.
+        "6164": 1, // Relevant: Describes a deep and simple Swedish film with meaningful themes and emotional impact.
+        "37450": 0 // Not relevant: A scathing review of a poorly made movie, calling it unoriginal and badly executed.
+    }
+},
+{
+    "query": "excellent adaptation of the book",
+    "ids": {
+        "1197": 0, // Not relevant: Focuses on movie interpretation and symbolism, not on its fidelity as a book adaptation.
+        "5805": 1, // Relevant: Discusses a true story adaptation, praising its emotional moments and performances.
+        "6241": 0, // Not relevant: Review of a slapstick comedy, unrelated to any book adaptation.
+        "4744": 0, // Not relevant: Critique of a martial arts movie with no connection to a book adaptation.
+        "34911": 0, // Not relevant: Critiques a film for lack of focus, unrelated to book adaptation.
+        "39545": 0, // Not relevant: Criticizes a poorly made exploitation film; no reference to a book adaptation.
+        "3473": 0, // Not relevant: Comments on a horror sequel; no mention of it being based on a book.
+        "28069": 0 // Not relevant: A negative review of an action movie; no mention of a book adaptation.
+    }
+},
+{
+    "query": "forgettable and uninspired movie",
+    "ids": {
+        "7724": 1, // Relevant: Describes an apathetic and uninspired sequel lacking originality.
+        "36527": 0, // Not relevant: Praises the movie for being thought-provoking and grounded.
+        "44762": 0, // Not relevant: A positive review describing the film as fun and worth watching.
+        "26478": 0, // Not relevant: A positive review of a documentary, unrelated to being forgettable or uninspired.
+        "23159": 1, // Relevant: Reviewer describes the film as boring and predictable, meeting the criteria.
+        "27728": 1, // Relevant: A scathing review calling the movie amateurish, with poor execution and storytelling.
+        "23286": 1, // Relevant: Criticizes the film for bad acting, nonsensical action, and being a waste of time.
+        "12081": 1 // Relevant: Describes the film as poorly executed, slow, and unoriginal, fitting the criteria.
+    }
+},
+{
+    "query": "a gripping thriller with unexpected twists",
+    "ids": {
+        "35476": 0, // Not relevant: Describes a poor popcorn movie with bad acting and effects.
+        "42116": 0, // Not relevant: Critiques the movie as one of the worst ever made, with unclear tone and poor acting.
+        "6049": 0, // Not relevant: Focuses on a fine adaptation of a novel with no indication of thriller elements.
+        "12462": 1, // Relevant: Praises a mesmerizing and intense erotic thriller with a plausible and gripping story.
+        "40231": 0, // Not relevant: A sci-fi show review focusing on relationships and drama, not a thriller movie.
+        "47718": 0, // Not relevant: Romantic drama, not a thriller with twists.
+        "25327": 1, // Relevant: Highlights a concept-driven film with a unique and unexpected storyline, fitting the query.
+        "46081": 0 // Not relevant: Labels the movie a failed comedy with no thriller elements.
+    }
+},
+{
+    "query": "classic film that stands the test of time",
+    "ids": {
+        "46944": 0, // Not relevant: Critiques the movie as dull and disappointing.
+        "17127": 1, // Relevant: Describes a fun, classic boulevard comedy with notable performances that provide enduring enjoyment.
+        "7965": 0, // Not relevant: Critiques the biopic for unconvincing performances and missed storytelling opportunities.
+        "42053": 0, // Not relevant: Focuses on an uneven narrative with a disappointing ending, not a classic quality.
+        "42744": 0, // Not relevant: Labels the movie as one of the worst ever made with no redeeming value.
+        "2707": 0, // Not relevant: Describes a flawed thriller with an incoherent plot.
+        "40106": 1, // Relevant: Celebrates a nostalgic, fun film with a great cast and memorable humor, fitting the "classic" criteria.
+        "46157": 1 // Relevant: Highlights a humorous and entertaining movie with strong performances and memorable moments, indicating timeless appeal.
+    }
+},
+{
+    "query": "disappointing ending but overall enjoyable",
+    "ids": {
+        "998": 0, // Not relevant: Entirely negative review, with no redeeming qualities mentioned.
+        "19119": 0, // Not relevant: Critiques the film as a mess with no indication of overall enjoyment.
+        "36312": 1, // Relevant: Highlights gripping action and entertainment but acknowledges missing elements (e.g., no flash-forwards), fitting the query.
+        "13658": 0, // Not relevant: Focuses on stereotypes and irritating characters, with no positive remarks about enjoyment.
+        "36536": 1, // Relevant: Enjoyable for historical and action aspects despite odd and prejudiced plot points, fitting the "disappointing ending" theme.
+        "24714": 1, // Relevant: Praises cast and action, mentioning an enjoyable experience with a twist ending that may be surprising but still satisfying.
+        "43292": 0, // Not relevant: Entirely positive review, with no mention of disappointment in the ending.
+        "2240": 0 // Not relevant: Describes the film as an artistic masterpiece with no mention of a disappointing ending.
+    }
+},
+{
+    "query": "a movie that changed my perspective",
+    "ids": {
+        "829": 0, // Not relevant: Review focuses on political bias and inaccuracies, not perspective-shifting qualities.
+        "34137": 1, // Relevant: Explores complex themes of love, betrayal, and self-discovery, which could change perspectives.
+        "27749": 0, // Not relevant: Entirely negative review of Oprah's persona, not related to a movie changing perspective.
+        "22777": 0, // Not relevant: Criticizes the film's portrayal of clichés without mentioning perspective change.
+        "20205": 0, // Not relevant: Mixed review about entertainment value but no mention of perspective change.
+        "29642": 0, // Not relevant: Negative review focused on nostalgia and dissatisfaction with changes to a cartoon format.
+        "41439": 1, // Relevant: A true story that combines romance and survival during WWII, potentially perspective-shifting for viewers.
+        "19347": 1 // Relevant: Although fragmentary, it covers significant political and historical events, offering potential new perspectives.
+    }
+}]
